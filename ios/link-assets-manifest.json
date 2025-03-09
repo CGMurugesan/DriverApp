@@ -1,0 +1,45 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/Fonts/Aileron/Aileron-Bold.otf",
+      "sha1": "9daa863f1c9a0f9efacd19fe9329c0fb9332ca7a"
+    },
+    {
+      "path": "src/assets/Fonts/Aileron/Aileron-Light.otf",
+      "sha1": "bf29e850d4c6dc3c73e46eb322f367c81ca07aad"
+    },
+    {
+      "path": "src/assets/Fonts/Aileron/Aileron-Regular.otf",
+      "sha1": "5a78965873fbce38941cd3da109280af89a42de5"
+    },
+    {
+      "path": "src/assets/Fonts/Aileron/Aileron-SemiBold.otf",
+      "sha1": "3c4affc8a57d6915e1255fd6c5312d1443bcc824"
+    },
+    {
+      "path": "src/assets/Fonts/Aileron/Aileron-UltraLightItalic.otf",
+      "sha1": "8a34c35019102ac48f86fc0255d06c8ca05933d0"
+    },
+    {
+      "path": "src/assets/Fonts/Aileron/Aileron.otf",
+      "sha1": "5a78965873fbce38941cd3da109280af89a42de5"
+    },
+    {
+      "path": "src/assets/Fonts/Aileron/Courier-New.ttf",
+      "sha1": "fef887ee7bb7ee95cf518f364032a79156d05a97"
+    },
+    {
+      "path": "src/assets/Fonts/Aileron/Inter-SemiBold.ttf",
+      "sha1": "431007da316de60d85174aeec9b8389b5c73e7d6"
+    },
+    {
+      "path": "src/assets/Fonts/Aileron/Metropolis.otf",
+      "sha1": "dc10ba3cd5aea203f7d0f5af99e72163514a55d5"
+    },
+    {
+      "path": "src/assets/Fonts/Aileron/Poppins.ttf",
+      "sha1": "645e04c53c6b5b35bce654a811ebce16af8aa721"
+    }
+  ]
+}
