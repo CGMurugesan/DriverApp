@@ -1,0 +1,106 @@
+# React Native Project Setup & Build Guide
+
+---
+
+## 📱 Running Your React Native Application
+
+### 🔧 Prerequisites
+1. Must install **Android Studio** for Android
+2. Must install **Xcode** for iOS
+3. Use **Yarn** for package management
+   >  use `npm install`, only use `yarn install`
+
+---
+
+### 🚀 Android
+
+#### Step-by-step
+1. Install packages
+   ```bash
+   yarn install
+   ```
+2. Start Metro
+   ```bash
+   npx react-native start
+   ```
+3. Run Android app
+   ```bash
+   source ~/.zprofile
+   npx react-native run-android
+   ```
+
+---
+
+### 🚀 iOS
+
+#### Step-by-step
+1. Install packages
+   ```bash
+   yarn install
+   ```
+2. Start Metro
+   ```bash
+   npx react-native start
+   ```
+3. Run iOS app
+   ```bash
+   npx react-native run-ios
+   ```
+   Or, open the project in Xcode and run directly from there.
+
+---
+
+## 🛠 Building APK (Android)
+
+1. Open **Android Studio** and select the project
+2. Navigate to the top menu → **Build**
+3. Click **Build Bundle(s) / APK(s)** → **Build APK**
+4. Wait for Gradle to finish building
+5. Locate the APK file:
+   ```
+   android/app/build/outputs/apk/release/app-release.apk
+   ```
+
+---
+
+## 🛠 Building IPA (iOS)
+
+1. Open the project in **Xcode**
+2. Navigate to the top menu → **Product** → **Archive**
+3. Wait for the archive process to complete
+4. In the new window, click **Distribute App** → choose **App Store** or **Development**
+5. Follow the steps to export the `.ipa` file
+
+---
+
+## 🧪 Generate APK for Debug (Android)
+
+### Step-by-step
+1. Bundle the app:
+   ```bash
+   npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+   
+   rm -rf ./android/app/src/main/res/drawable-*
+   rm -rf ./android/app/src/main/res/raw
+   ```
+2. Navigate to android directory:
+   ```bash
+   cd android
+   ```
+3. 
+   ./gradlew app:assembleRelease
+   
+   ```
+
+### Output Location
+```
+yourProject/android/app/build/outputs/apk/release/app-release.apk
+```
+
+---
+
+## 🧪 Debug Shortcuts
+- iOS: `Ctrl + CMD + Z`
+- Android: `Cmd + M`
+
+---
